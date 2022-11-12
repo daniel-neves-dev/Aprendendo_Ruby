@@ -33,3 +33,17 @@ p nome.downcase
  #CAPTALIZE
  mensagem = "minha nova mensagem"
  p mensagem.capitalize
+
+ puts "\n"
+ #GSUB substitir valores, exemplo
+  mensagem = "ola nome"
+  p mensagem
+  p mensagem.gsub("nome", "cadu")
+
+  puts "\n"
+  #SPLIT classe de arrey por espaço
+  nomes = "Cadu Daniel Maria Paula"
+  p nomes
+  nomes = "Cadu Daniel Maria Paula".split
+  p nomes
+  nomes = "Cadu-Daniel-Maria-Paula".split("-")
