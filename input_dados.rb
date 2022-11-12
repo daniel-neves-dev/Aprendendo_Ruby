@@ -1,3 +1,5 @@
-p "Digite o seu nome: "
+puts "Digite o seu nome: "
+
 nome = gets
-p "Bem vindo #{nome}"
+
+puts "Bem vindo #{nome}"
