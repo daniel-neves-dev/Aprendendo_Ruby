@@ -28,3 +28,8 @@ puts "\n"
 #UPCASE / DOWNCASE, exemplo
 p nome.upcase
 p nome.downcase
+
+ puts "\n"
+ #CAPTALIZE
+ mensagem = "minha nova mensagem"
+ p mensagem.capitalize
