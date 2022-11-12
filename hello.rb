@@ -1,5 +1,10 @@
 puts "Hello everyone!!!"
 nome = "Cadu"
-mensagem = "Bem vindo #{nome}"
+
+mensagem = <<~MENSAGEM
+    olá #{nome}
+    Bem vindo(a) ao  meu programa!
+    Obrigado.
+MENSAGEM
 
 puts mensagem
