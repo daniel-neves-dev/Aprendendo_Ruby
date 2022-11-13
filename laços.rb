@@ -36,3 +36,10 @@ puts"\n"
 for valor in lista
     p "Número na lista (usando 'for') #{valor}"
 end
+
+puts"\n"
+
+hash = {nome: "Daniel", idade: 40}
+hash.each do |chave, valor|
+    p "Minha chave é #{chave}, com o valor #{valor}"
+end
