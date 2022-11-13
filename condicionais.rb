@@ -1,3 +1,4 @@
+#puts "Digite um número"
 #valor = gets.chomp.to_i
 #p valor
 #if valor > 20
@@ -21,11 +22,16 @@
 
 puts "\n"
 #UNLESS só executa quando o valor for falso, exemplo
-p "Digite um número"
-n_numero = gets.chomp.to_i
-unless n_numero == 100
-    p "Este número não é o valor 100"
-else
-    p "Número correto"
-end
+#puts "Digite um número"
+#n_numero = gets.chomp.to_i
+#unless n_numero == 100
+#    p "Este número não é o valor 100"
+#else
+#    p "Número correto"
+#end
 
+puts "\n"
+#Condição em uma única linha, exemplo
+puts "Digite um número"
+n2_numero = gets.chomp.to_i
+p "O número é maio que 50" if n2_numero > 50
