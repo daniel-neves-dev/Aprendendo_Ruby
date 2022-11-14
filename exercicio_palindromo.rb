@@ -6,7 +6,7 @@ def palindromo?(palavra)
 
     until indice == 0
         palavra_reversa += palavra[indice-1]
-        indice-=1
+        indice -= 1  
     end
 
     if palavra_reversa == palavra
